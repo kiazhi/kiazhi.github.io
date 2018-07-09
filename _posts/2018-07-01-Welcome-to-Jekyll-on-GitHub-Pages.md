@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "Welcome to Jekyll on GitHub Pages"
-excerpt: "My first attempt on getting a static blog site for free to blog in
-markdown language with my trusty keyboard and follow this Getting Started with
+excerpt: "My first attempt on getting a static blog site to blog in
+Markdown/HTML language with my trusty keyboard and follow this Getting Started with
 Jekyll on GitHub Pages."
 author: Ryen Tang
 date: 2018-07-01 00:00:00 +1200
