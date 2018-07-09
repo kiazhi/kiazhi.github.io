@@ -1,0 +1,32 @@
+# Site Author
+Ryen Tang:
+  name             : "Kia Zhi Tang (Ryen Tang)"
+  avatar           : "/assets/images/authors/bio-photo-ryen-tang.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Technology Evangelist, Infrastructure as Code Developer, Automation Guru<p/>To find out more about <a href='/about' style='color:#a8ff60;'>me</a>."
+  location         : "Auckland, New Zealand"
+  email            :
+  uri              : "https://kiazhi.github.io"
+  home             : # null (default), "absolute or relative url to link to author home"
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         : "kiazhi"
+  foursquare       :
+  github           : "kiazhi"
+  gitlab           :
+  google_plus      :
+  keybase          :
+  instagram        :
+  lastfm           :
+  linkedin         : "ryentang" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
+  steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
+  tumblr           :
+  twitter          : "kiazhi"
+  vine             :
+  weibo            :
+  xing             :
+  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
