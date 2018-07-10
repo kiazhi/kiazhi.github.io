@@ -7,8 +7,8 @@ main:
     url: /categories/
   - title: "Tags"
     url: /tags/
-  - title: "Archive"
-    url: /archive/
+  - title: "Archives"
+    url: /archives/
 #  - title: "Collections"
 #    url: /collection-archive/
 #  - title: "External Link"
