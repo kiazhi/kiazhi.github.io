@@ -28,11 +28,11 @@ other language spells when casting digital magic without waving a mouse.
 ## Additional Information
 
 On my free time, I loves to contribute back to the IT community with knowledge
-and skills learnt from my experience to enrich the practice for the next person
+and skills learnt from my experience to enrich the practices for the next person
 who may endeavour on the same journey or beyond. I started off by blogging in my
 previous ([ryentang.wordpress.com](https://ryentang.wordpress.com)) blog site
 serves by Wordpress.com for the sake of documenting my learnings to avoid from
-suffering the modern world of digital amnesia.
+suffering of digital amnesia in this modern world.
 
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>

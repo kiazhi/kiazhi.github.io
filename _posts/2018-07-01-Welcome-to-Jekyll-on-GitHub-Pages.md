@@ -141,7 +141,7 @@ jekyll new .
 Next, get generates the static site and preview the site locally use loopback
 address. Remember that this command must only be executed to generate and
 preview the site from the local file system GitHub
-`.\$GITHUB_USERNAME.github.io` repository directory where the Jekyll content is
+`./$GITHUB_USERNAME.github.io` repository directory where the Jekyll content is
 located.
 
 ```sh

@@ -80,6 +80,9 @@ environment, you can apply the next following Ruby script from the shell to
 configure the  Jekyll (`_config.yml`) configuration file `theme:` key with the
 value of chosen GitHub Pages theme.
 
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+<p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
+
 ### Architect
 
 To apply your Jekyll site with this GitHub Pages theme, execute the following
@@ -89,6 +92,9 @@ Ruby script in the shell below.
 ruby -e "text = File.read('_config.yml')
 File.write('_config.yml', text.gsub(/theme: minima/, 'theme: jekyll-theme-architect'))"
 ```
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+<p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
 ### Cayman
 
@@ -100,6 +106,9 @@ ruby -e "text = File.read('_config.yml')
 File.write('_config.yml', text.gsub(/theme: minima/, 'theme: jekyll-theme-cayman'))"
 ```
 
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+<p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
+
 ### Dinky
 
 To apply your Jekyll site with this GitHub Pages theme, execute the following
@@ -109,6 +118,9 @@ Ruby script in the shell below.
 ruby -e "text = File.read('_config.yml')
 File.write('_config.yml', text.gsub(/theme: minima/, 'theme: jekyll-theme-dinky'))"
 ```
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+<p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
 ### Hacker
 
@@ -120,6 +132,9 @@ ruby -e "text = File.read('_config.yml')
 File.write('_config.yml', text.gsub(/theme: minima/, 'theme: jekyll-theme-hacker'))"
 ```
 
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+<p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
+
 ### Leap Day
 
 To apply your Jekyll site with this GitHub Pages theme, execute the following
@@ -129,6 +144,9 @@ Ruby script in the shell below.
 ruby -e "text = File.read('_config.yml')
 File.write('_config.yml', text.gsub(/theme: minima/, 'theme: jekyll-theme-leap-day'))"
 ```
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+<p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
 ### Merlot
 
@@ -140,6 +158,9 @@ ruby -e "text = File.read('_config.yml')
 File.write('_config.yml', text.gsub(/theme: minima/, 'theme: jekyll-theme-merlot'))"
 ```
 
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+<p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
+
 ### Midnight
 
 To apply your Jekyll site with this GitHub Pages theme, execute the following
@@ -149,6 +170,9 @@ Ruby script in the shell below.
 ruby -e "text = File.read('_config.yml')
 File.write('_config.yml', text.gsub(/theme: minima/, 'theme: jekyll-theme-midnight'))"
 ```
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+<p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
 ### Minimal
 
@@ -160,6 +184,9 @@ ruby -e "text = File.read('_config.yml')
 File.write('_config.yml', text.gsub(/theme: minima/, 'theme: jekyll-theme-minimal'))"
 ```
 
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+<p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
+
 ### Modernist
 
 To apply your Jekyll site with this GitHub Pages theme, execute the following
@@ -169,6 +196,9 @@ Ruby script in the shell below.
 ruby -e "text = File.read('_config.yml')
 File.write('_config.yml', text.gsub(/theme: minima/, 'theme: jekyll-theme-modernist'))"
 ```
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+<p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
 ### Slate
 
@@ -180,6 +210,9 @@ ruby -e "text = File.read('_config.yml')
 File.write('_config.yml', text.gsub(/theme: minima/, 'theme: jekyll-theme-slate'))"
 ```
 
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+<p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
+
 ### Tactile
 
 To apply your Jekyll site with this GitHub Pages theme, execute the following
@@ -189,6 +222,9 @@ Ruby script in the shell below.
 ruby -e "text = File.read('_config.yml')
 File.write('_config.yml', text.gsub(/theme: minima/, 'theme: jekyll-theme-tactile'))"
 ```
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+<p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
 ### Time Machine
 
@@ -234,7 +270,7 @@ bundle update
 Without any particular issue that may arise after you requested `bundle` to
 update all necessary gems, you can use the following command to execute Jeykll
 locally to serve and preview the site on 
-[http://localhost:4000/](http://localhost:4000/]).
+[http://localhost:4000/](http://localhost:4000/).
 
 ```sh
 bundle exec jekyll serve
