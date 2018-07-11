@@ -4,13 +4,18 @@
 
 @charset "utf-8";
 
+/* html color */
+$background-color: #000000;
+$primary-color: #a8ff60;
 $link-color: #a8ff60;
+.toc .nav__title { color: #000 !important; }
 
 /* system typefaces */
 //$serif      : Georgia, Times, serif;
 //$sans-serif : -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 //$monospace  : Monaco, Consolas, "Lucida Console", monospace;
 
+/* code syntax highlighting */
 $code-background-color: #696969;
 
 /* contrast syntax highlighting (base16) */
