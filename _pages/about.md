@@ -25,7 +25,7 @@ other language spells when casting digital magic without waving a mouse.
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
-### Additional Information
+## Additional Information
 
 On my free time, I loves to contribute back to the IT community with knowledge
 and skills learnt from my experience to enrich the practice for the next person
@@ -38,17 +38,17 @@ suffering the modern world of digital amnesia.
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
-### Public Projects
+## Public Projects
 
 These are the projects that has public releases.
 
-#### Open Source
+### Open Source
 
 - [AppVeyor-CI-CD-for-Docker](https://github.com/kiazhi/AppVeyor-CI-CD-for-Docker)
 - [Windows-Containers](https://github.com/kiazhi/Windows-Containers)
 - [SharePointPnP.PowerShell.Commands.Files.Recurse](https://github.com/kiazhi/SharePointPnP.PowerShell.Commands.Files.Recurse)
 
-#### Closed Source
+### Closed Source
 
 - [Qualys.SSLLabs](https://www.powershellgallery.com/packages/Qualys.SSLLabs)
 - [PowerShell.X509Certificate.Utility](https://www.powershellgallery.com/packages/PowerShell.X509Certificate.Utility)
@@ -56,22 +56,22 @@ These are the projects that has public releases.
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
-### Public Publications
+## Public Publications
 
 These are the publications that are publicly available online.
 
-#### Cloud
+### Cloud
 
 - [Microsoft Azure: Managing Nano Server with Server Management Tools](http://social.technet.microsoft.com/wiki/contents/articles/35196.microsoft-azure-managing-nano-server-with-server-management-tools.aspx) <!-- Published on 15 Aug 2016 8:35 PM at Microsoft TechNet Wiki -->
 - [Microsoft Azure: Deploying Windows Server 2016 Nano Server](https://social.technet.microsoft.com/wiki/contents/articles/34792.microsoft-azure-deploying-windows-server-2016-nano-server.aspx) <!-- Published on 11 Jul 2016 7:18 PM at Microsoft TechNet Wiki -->
 - [Microsoft Azure: Deploying Site to Site VPN Connection with Citrix NetScaler CloudBridge](https://social.technet.microsoft.com/wiki/contents/articles/33610.microsoft-azure-deploying-site-to-site-vpn-connection-with-citrix-netscaler-cloudbridge.aspx) <!-- Published on 3 Mar 2016 10:24 PM at Microsoft TechNet Wiki -->
 
-#### Database
+### Database
 
 - [SQL Server: Getting Started with MS SQL Server on Red Hat Enterprise Linux](https://social.technet.microsoft.com/wiki/contents/articles/36537.sql-server-getting-started-with-ms-sql-server-on-red-hat-enterprise-linux.aspx) <!-- Published on 22 Dec 2016 11:41 AM at Microsoft TechNet Wiki -->
 - [SQL Server: Getting Started with MS SQL Server on Ubuntu](https://social.technet.microsoft.com/wiki/contents/articles/36376.sql-server-getting-started-with-ms-sql-server-on-ubuntu.aspx) <!-- Published on 29 Nov 2016 7:10 PM at Microsoft TechNet Wiki -->
 
-#### Platform
+### Platform
 
 - [Windows Server Insider: Getting Started in Container with Docker](http://social.technet.microsoft.com/wiki/contents/articles/40042.windows-server-insider-getting-started-in-container-with-docker.aspx) <!-- Published on 31 Aug 2017 10:47 PM at Microsoft TechNet Wiki -->
 - [Nano Server: Getting Started in Container with Docker](https://social.technet.microsoft.com/wiki/contents/articles/38652.nano-server-getting-started-in-container-with-docker.aspx) <!-- Published on 26 Jul 2017 2:09 AM at Microsoft TechNet Wiki -->
@@ -86,7 +86,7 @@ These are the publications that are publicly available online.
 - [Windows Nano Server: Virtualization with VMware vSphere](https://social.technet.microsoft.com/wiki/contents/articles/32731.windows-nano-server-virtualization-with-vmware-vsphere.aspx) <!-- Published on 19 Nov 2015 2:49 AM at Microsoft TechNet Wiki -->
 - [Nano Server Survival Guide](https://social.technet.microsoft.com/wiki/contents/articles/32729.nano-server-survival-guide.aspx) <!-- Published on 19 Nov 2015 12:08 AM at Microsoft TechNet Wiki -->
 
-#### Shell
+### Shell
 
 - [PowerShell: Getting Started with Binary Module for PowerShell Core](https://social.technet.microsoft.com/wiki/contents/articles/51056.powershell-getting-started-with-binary-module-for-powershell-core.aspx) <!-- Published on 9 Jan 2018 1:40 PM at Microsoft TechNet Wiki -->
 - [Visual Studio Code: Getting Started with PowerShell](http://social.technet.microsoft.com/wiki/contents/articles/35780.visual-studio-code-getting-started-with-powershell.aspx) <!-- Published on 25 Sep 2016 3:15 PM at Microsoft TechNet Wiki -->
