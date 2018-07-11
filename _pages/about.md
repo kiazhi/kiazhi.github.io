@@ -20,19 +20,23 @@ framework, providing service delivery satisfaction, driving project delivery
 on time and budget for a living.
 
 I am also known as a keyboard wizard that chants PowerShell, C#, Javascript and
-other spells by casting digital magic without waving a mouse.
+other language spells when casting digital magic without waving a mouse.
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
-<p style='font-size: 16px; vertical-align: top;'>↑<a href='#top'>Top</a></p>
+<p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
 ### Additional Information
 
 On my free time, I loves to contribute back to the IT community with knowledge
 and skills learnt from my experience to enrich the practice for the next person
-who may endeavour on the same journey or beyond.
+who may endeavour on the same journey or beyond. I started off by blogging in my
+previous ([ryentang.wordpress.com](https://ryentang.wordpress.com)) blog site
+serves by Wordpress.com for the sake of documenting my learnings to avoid from
+suffering the modern world of digital amnesia.
+
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
-<p style='font-size: 16px; vertical-align: top;'>↑<a href='#top'>Top</a></p>
+<p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
 ### Public Projects
 
@@ -50,7 +54,7 @@ These are the projects that has public releases.
 - [PowerShell.X509Certificate.Utility](https://www.powershellgallery.com/packages/PowerShell.X509Certificate.Utility)
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
-<p style='font-size: 16px; vertical-align: top;'>↑<a href='#top'>Top</a></p>
+<p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
 ### Public Publications
 
@@ -88,4 +92,4 @@ These are the publications that are publicly available online.
 - [Visual Studio Code: Getting Started with PowerShell](http://social.technet.microsoft.com/wiki/contents/articles/35780.visual-studio-code-getting-started-with-powershell.aspx) <!-- Published on 25 Sep 2016 3:15 PM at Microsoft TechNet Wiki -->
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
-<p style='font-size: 16px; vertical-align: top;'>↑<a href='#top'>Top</a></p>
+<p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
