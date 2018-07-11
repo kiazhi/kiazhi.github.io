@@ -13,6 +13,7 @@ tags:
   - Blog
   - Jekyll
   - GitHub
+  - Ruby
   - "Ryen Tang"
 ---
 
@@ -34,7 +35,7 @@ Jekyll on GitHub and after that it will be history and I am taking a note of
 this to help myself in remembering the process. :)
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
-<p style='font-size: 16px; vertical-align: top;'>↑<a href='#top'>Top</a></p>
+<p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
 ### Pre-requisite requirements
 
@@ -45,7 +46,7 @@ this to help myself in remembering the process. :)
     - [Jekyll](https://jekyllrb.com/)
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
-<p style='font-size: 16px; vertical-align: top;'>↑<a href='#top'>Top</a></p>
+<p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
 ### Create a GitHub Repository
 
@@ -78,7 +79,7 @@ curl -u '$GITHUB_USERNAME:$GITHUB_ACCESS_TOKEN' https://api.github.com/user/repo
 ```
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
-<p style='font-size: 16px; vertical-align: top;'>↑<a href='#top'>Top</a></p>
+<p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
 ### Clone GitHub remote repository to local file system
 
@@ -98,7 +99,7 @@ git clone https://github.com/$GITHUB_USERNAME/$GITHUB_USERNAME.github.io.git
 ```
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
-<p style='font-size: 16px; vertical-align: top;'>↑<a href='#top'>Top</a></p>
+<p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
 ### Install Bundler and Jekyll
 
@@ -114,7 +115,7 @@ gem install bundler jekyll
 ```
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
-<p style='font-size: 16px; vertical-align: top;'>↑<a href='#top'>Top</a></p>
+<p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
 ### Create your new Jekyll site
 
@@ -131,30 +132,9 @@ original empty folder.
 ```sh
 jekyll new .
 ```
-<!--
-# Setup Jekyll for GitHub Pages 
-
-Use ruby script to modify Gemfile.
-
-```ruby
-text = File.read('Gemfile')
-File.write('Gemfile', text.gsub(/gem\ \"jekyll\"/, '#gem \"jekyll\"'))
-text = File.read('Gemfile')
-File.write('Gemfile', text.gsub(/#gem\ \"github-pages\"/, 'gem \"github-pages\"'))
-```
-
-Use the following below to execute the ruby script from the terminal.
-
-```sh
-ruby -e "text = File.read('Gemfile')
-File.write('Gemfile', text.gsub(/gem\ \"jekyll\"/, '#gem \"jekyll\"'))
-text = File.read('Gemfile')
-File.write('Gemfile', text.gsub(/#gem\ \"github-pages\"/, 'gem \"github-pages\"'))"
-```
--->
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
-<p style='font-size: 16px; vertical-align: top;'>↑<a href='#top'>Top</a></p>
+<p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
 ### Generate static site and preview site locally
 
@@ -173,7 +153,7 @@ address on port 4000. Use `CTRL+C` on the terminal to stop Jekyll from
 serving the site and returns back to terminal.
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
-<p style='font-size: 16px; vertical-align: top;'>↑<a href='#top'>Top</a></p>
+<p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
 ### Publishing static site to GitHub.io
 
@@ -188,7 +168,7 @@ git push -u origin master
 ```
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
-<p style='font-size: 16px; vertical-align: top;'>↑<a href='#top'>Top</a></p>
+<p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
 ### Conclusion
 
@@ -223,4 +203,4 @@ site better and easier for me to manage. That also means I will have to hack
 more on this and provide myself this new challenge. Hack-on...
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
-<p style='font-size: 16px; vertical-align: top;'>↑<a href='#top'>Top</a></p>
+<p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
