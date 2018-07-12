@@ -4,7 +4,7 @@ title: "Configuring Jekyll with GitHub Pages themes"
 excerpt: "A guide on choosing a Jekyll theme from a wide variety of GitHub
 Pages themes using just the shell with Ruby and my trusty keyboard."
 author: Ryen Tang
-date: 2018-07-11 00:00:00 +1200
+date: 2018-07-08 00:00:00 +1200
 toc: true
 categories: 
   - Blog
