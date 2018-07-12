@@ -15,6 +15,9 @@ $link-color: #a8ff60;
 //$sans-serif : -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 //$monospace  : Monaco, Consolas, "Lucida Console", monospace;
 
+/* side bar */
+.author__avatar { img { max-width: 250px !important; border-radius: 5% !important;}}
+
 /* code syntax highlighting */
 $code-background-color: #696969;
 
