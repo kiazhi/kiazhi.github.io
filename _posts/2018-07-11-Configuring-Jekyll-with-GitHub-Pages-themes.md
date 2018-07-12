@@ -291,6 +291,10 @@ git commit -m 'Updated Jekyll with GitHub Pages themes'
 git push -u origin master
 ```
 
+> Note:
+Remember to replace `$GITHUB_USERNAME` variable with your real GitHub username
+to browse your published online site.
+
 After you have pushed, you can view it live from your
 `$GITHUB_USERNAME`.github.io URL using your favourite browser. It just that
 easy with keyboard.

@@ -138,7 +138,7 @@ jekyll new .
 
 ### Generate static site and preview site locally
 
-Next, get generates the static site and preview the site locally use loopback
+Next, we can generates the static site and preview the site locally use loopback
 address. Remember that this command must only be executed to generate and
 preview the site from the local file system GitHub
 `./$GITHUB_USERNAME.github.io` repository directory where the Jekyll content is
@@ -150,7 +150,7 @@ bundle exec jekyll serve
 
 You can preview the site by browsing to `http://127.0.0.1:4000/` loopback
 address on port 4000. Use `CTRL+C` on the terminal to stop Jekyll from
-serving the site and returns back to terminal.
+serving the site and returns back to shell.
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
