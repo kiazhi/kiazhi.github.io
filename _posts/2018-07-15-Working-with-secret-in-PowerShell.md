@@ -116,7 +116,7 @@ Since an encrypted `String` is not something that we can use, we will need to
 use the encrypted `String` value that we got and unencrypt them back to plain
 text `String` value.
 
-If you are using PowerShell <= 4.0 that still utilises old .Net Framework
+If you are using PowerShell that still utilises old .Net Framework
 libraries, you will have to use `Marshal` class from
 `System.Runtime.InteropServices` namespace with `PtrToStringAuto` and
 `SecureStringToBSTR` methods to convert the encrypted `String` as below.
@@ -130,7 +130,7 @@ libraries, you will have to use `Marshal` class from
                 -Force)))
 ```
 
-If you are using PowerShell >= 5.0 that utilises newer .Net Framework
+If you are using PowerShell that utilises newer .Net Framework
 libraries, you will have to use `Marshal` class from
 `System.Runtime.InteropServices` namespace with `PtrToStringAnsi` method, and
 `SecureStringMarshal` class from `System.Security` namespace with
@@ -145,6 +145,15 @@ below.
             -String $($SCRIPT:SECUREPASSWORD | ConvertFrom-SecureString) `
             -Force)))
 ```
+
+> Note: The above methods do not work on PowerShell Core 6.0 of higher for
+non-Windows platforms such as Linux and macOS due to a
+[#1654](https://github.com/PowerShell/PowerShell/issues/1654) issue with
+`ConvertFrom-SecureString` cmdlet on those platforms since 5 Aug 2016. As such,
+we may have to wait until that
+[#1654](https://github.com/PowerShell/PowerShell/issues/1654) issue is resolved
+or a workaround is available for those platforms. In short, we are still brain
+storming about it.
 
 And you will obtain your original plain text password value outputs on the
 console as below.
@@ -171,10 +180,12 @@ encrypted `SecureString`. Secondly, it is impossible to copy the
 machine due to a mismatch cryptography cipher key between the machine.
 
 Why is there two different ways of converting encrypted `String` back to plain
-text `String`? That is because legacy PowerShell on older operating system is
-using legacy .Net Framework and since then Microsoft has been improving their
-.Net Framework. Therefore, it good to know how to do this in newer PowerShell
-and hope you enjoyed reading this. Share this with others and keep them
+text `String`? That is because PowerShell on older operating system is
+using legacy .Net Framework. Since then Microsoft has been improving their
+.Net Framework and there are a few namespaces and classes rearrangement.
+Therefore, if you are not aware of how to do this with newer .Net Framework
+previously, I hope you know how to do it now and enjoyed reading this. If you
+reckon this is good information, help share this with others and keep them
 informed.
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
