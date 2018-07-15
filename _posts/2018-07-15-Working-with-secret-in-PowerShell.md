@@ -147,11 +147,11 @@ below.
 ```
 
 > Note: The above methods do not work on PowerShell Core 6.0 of higher for
-non-Windows platforms such as Linux and macOS due to a
-[#1654](https://github.com/PowerShell/PowerShell/issues/1654) issue with
+non-Windows platforms such as Linux and macOS due to issue
+[#1654](https://github.com/PowerShell/PowerShell/issues/1654) with
 `ConvertFrom-SecureString` cmdlet on those platforms since 5 Aug 2016. As such,
-we may have to wait until that
-[#1654](https://github.com/PowerShell/PowerShell/issues/1654) issue is resolved
+we may have to wait until that issue
+[#1654](https://github.com/PowerShell/PowerShell/issues/1654) is resolved
 or a workaround is available for those platforms. In short, we are still brain
 storming about it.
 
