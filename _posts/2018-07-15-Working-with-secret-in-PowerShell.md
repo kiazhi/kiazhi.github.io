@@ -170,14 +170,15 @@ MyTopSecretPassword
 ## Conclusion
 
 To summarize this, it is possible to secure a plain text `String` into a
-`SecureString` that is encrypted using the `CRYPT32.dll` library and it is also
-possible to reverse the encrypted `SecureString` back to the original plain
-text `String` value in PowerShell. Does that mean it is insecure to store any
-sensitive values as `SecureString`? No, it is still very secure because someone
-will need to be able to hack into the machine first in order to reverse the
-encrypted `SecureString`. Secondly, it is impossible to copy the
-`SecureString` (long) encrypted `String` value and reverse it from another
-machine due to a mismatch cryptography cipher key between the machine.
+`SecureString` that is encrypted and it is also possible to reverse the
+encrypted `SecureString` back to the original plain text `String` value in
+PowerShell. Does that mean it is insecure to store any sensitive values as
+`SecureString`? No, it is still very secure to some extent because someone
+will need to be able to hack into the machine in advance to run a
+malicious process with access to raw memory to reverse the encrypted
+`SecureString`. Secondly, it is impossible to copy the `SecureString` (long)
+encrypted `String` value and reverse it from another machine due to a mismatch
+cryptography cipher key. For more information, please kindly refer to [How secure is SecureString?](https://msdn.microsoft.com/en-us/library/system.security.securestring(v=vs.110).aspx#HowSecure)
 
 Why is there two different ways of converting encrypted `String` back to plain
 text `String`? That is because PowerShell on older operating system is
