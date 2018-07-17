@@ -21,6 +21,9 @@ GitHub Pages and you probably noticed that using `jekyll new .` will deploy
 Jekyll with a default `minima` theme. Today, I'm going to demonstrate on how
 you can change your Jekyll default theme for your GitHub Pages.
 
+> Note: If you have not seen my previous blog post, this is the blog post which I am
+referring to [here](https://kiazhi.github.io/blog/Welcome-to-Jekyll-on-GitHub-Pages/).
+
 ## GitHub supported Jekyll Themes
 
 As you probably discovers more about Jekyll, you will find that there are alot
