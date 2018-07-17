@@ -9,6 +9,7 @@ $background-color: #000000;
 $primary-color: #a8ff60;
 $link-color: #a8ff60;
 .toc .nav__title { color: #000 !important; }
+.toc .toc__menu li>ul li { display:block !important; }
 
 /* system typefaces */
 //$serif      : Georgia, Times, serif;
