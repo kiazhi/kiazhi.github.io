@@ -37,7 +37,7 @@ this to help myself in remembering the process. :)
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
-### Pre-requisite requirements
+## Pre-requisite requirements
 
 - [GitHub User Account](https://github.com/join)
 - [Git](https://git-scm.com)
@@ -122,7 +122,7 @@ gem install bundler jekyll
 Change your current working directory to the cloned repository directory path.
 
 ```sh
-cd kiazhi.github.io
+cd $GITHUB_USERNAME.github.io
 ```
 
 Use `jekyll new` to create your new Jekyll site in your current cloned
@@ -170,7 +170,7 @@ git push -u origin master
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
-### Conclusion
+## Conclusion
 
 Finally, you can view the published site on the internet by browsing to the url.
 

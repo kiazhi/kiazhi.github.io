@@ -46,7 +46,7 @@ and many other Linux tools on Windows.
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
-### Pre-requisite requirements
+## Pre-requisite requirements
 
 - Windows 10 Build [16215](https://docs.microsoft.com/en-us/windows/wsl/release-notes#build-16215)
 or later
