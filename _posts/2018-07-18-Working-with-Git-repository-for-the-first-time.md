@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "Working with Git repository for the first time"
-excerpt: "Are you frustrated with version control? Explore using Git with this
-guide or cheat sheet on working with Git repository for the first time."
+excerpt: "Are you frustrated with version control? Explore Git with this
+guide or cheat sheet and try working with Git repository for the first time."
 author: Ryen Tang
 header:
   image: ./assets/images/banners/Git-1280x200.png
