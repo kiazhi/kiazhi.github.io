@@ -212,10 +212,13 @@ git log
 
 It is just that simple to start having a Git repository to work with your files
 and track those changes. Remember the key benefit of having Git repository is
-that Git tracks content not files. Having a remote source from a remote service
-provider or self-host on-premise server to store those Git repositories allows
-others to work collaboratively on the repository with Git managing and tracking
-those changes. There you have it, start gitting.
+that Git tracks content not files.
+
+Having a remote source from a remote service provider or self-host on-premise
+server to store those Git repositories allows others to work collaboratively on
+the repository with Git managing and tracking those changes.
+
+There you have it, start gitting.
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
