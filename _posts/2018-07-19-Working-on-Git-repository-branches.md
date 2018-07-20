@@ -55,8 +55,15 @@ repository, you should be able to find the output stating master branch.
 git branch -l
 ```
 
-If you have clone a Git repository, you can use the `git branch` with `-a`
+If you have clone a Git repository, you can use the `git branch` with `-r`
 parameter to view all remote branches.
+
+```sh
+git branch -r
+```
+
+To get a bird's eye view of all the branches in local or remote Git repository,
+use the `git branch` with `-a` parameter.
 
 ```sh
 git branch -a
