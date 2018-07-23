@@ -15,6 +15,13 @@ header:
   {% assign posts = group_items[forloop.index0] %}
   <h2 id="{{ category | slugify }}" class="archive__subtitle">{{ category }}</h2>
   {% for post in posts %}
+
+    <!-- kiazhi.github.io - Categories - In-Feed Text Advertisement -->
+    {% assign loopindex = forloop.index | modulo: 2 %}
+    {% if loopindex == 1 %}
+      {% include /advertisements/in-feed/categories.html %}
+    {% endif %}
+
     {% include archive-single.html %}
   {% endfor %}
 {% endfor %}

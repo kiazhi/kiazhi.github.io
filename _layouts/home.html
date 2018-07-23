@@ -5,14 +5,14 @@ layout: archive
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
 {% for post in paginator.posts %}
-{% assign loopindex = forloop.index | modulo: 2 %}
 
+    <!-- kiazhi.github.io - Home - Native In-Feed Text Advertisement -->
+    {% assign loopindex = forloop.index | modulo: 2 %}
     {% if loopindex == 1 %}
-        {% include /advertisements/in-feed/text.html %}
+        {% include /advertisements/in-feed/home.html %}
     {% endif %}
     
-    {% include archive-single.html %}  
-
+    {% include archive-single.html %}
 {% endfor %}
 
 {% include paginator.html %}
