@@ -192,6 +192,18 @@ sudo apt update && sudo apt upgrade
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
+### How to switch into Ubuntu distro shell environment
+
+After you have configured and updated your Ubuntu distro instance, you can
+always quickly switch into the linux distro shell environment by doing the
+following below.
+
+- Launch Command Prompt or PowerShell Console
+- Input `wsl` or `bash` to switch into Ubuntu distro shell environment
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+<p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
+
 ### How to validate Ubuntu distro instance version
 
 To check the Ubuntu distro instance version, use the `lsb_release` command with `-a` parameter.
@@ -234,6 +246,13 @@ share it with your colleague.
 
 - [A Guide to Upgrading your Ubuntu App’s Release](https://blogs.msdn.microsoft.com/commandline/2018/07/09/upgrading-ubuntu/)
 - [Initializing a newly installed distro](https://docs.microsoft.com/en-us/windows/wsl/initialize-distro)
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+<p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
+
+## Related Books
+
+<div id="amzn-assoc-ad-22001220-84c8-4c29-a8ca-d233867de335"></div><script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=22001220-84c8-4c29-a8ca-d233867de335"></script>
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
