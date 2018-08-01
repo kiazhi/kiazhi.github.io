@@ -242,8 +242,8 @@ That all, folks. These are the basic on how to manage branches in Git
 repository and hope you gain some knowledge on how to grow or prune those
 branches.
 
-If you find that this information is useful, feel free to bookmark
-this or share it with your colleague.
+If you find that this information is useful, feel free to bookmark this or
+share it with your colleague.
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
