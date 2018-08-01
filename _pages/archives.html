@@ -18,7 +18,7 @@ header:
   {% endif %}
 
   <!-- kiazhi.github.io - Archives - In-Feed Text Advertisement -->
-  {% assign loopindex = forloop.index | modulo: 2 %}
+  {% assign loopindex = forloop.index | modulo: 5 %}
   {% if loopindex == 1 %}
     {% include /advertisements/in-feed/archives.html %}
   {% endif %}

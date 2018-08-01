@@ -17,7 +17,7 @@ header:
   {% for post in posts %}
 
     <!-- kiazhi.github.io - Tags - In-Feed Text Advertisement -->
-    {% assign loopindex = forloop.index | modulo: 2 %}
+    {% assign loopindex = forloop.index | modulo: 5 %}
     {% if loopindex == 1 %}
         {% include /advertisements/in-feed/tags.html %}
     {% endif %}
