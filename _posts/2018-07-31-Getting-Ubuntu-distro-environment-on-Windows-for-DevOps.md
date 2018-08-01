@@ -221,11 +221,11 @@ sudo do-release-upgrade -d
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
-### Conclusion
+## Conclusion
 
-There you having you it. You can deploy this feature on Windows 10 or Windows
-Server and keep the instance up to date with that linux distro before it
-reaches end of life.
+There you have it. You can deploy this feature on Windows 10 or Windows Server
+and keep the instance up to date with that linux distro before it reaches end
+of life.
 
 If you find that this information is useful, feel free to bookmark this or
 share it with your colleague.
