@@ -239,8 +239,8 @@ There you have it. You can deploy this feature on Windows 10 or Windows Server
 and keep the instance up to date with that linux distro before it reaches end
 of life.
 
-If you find that this information is useful, feel free to bookmark this or
-share it with your colleague.
+If you find that this information useful, feel free to bookmark this or share
+it with your colleagues and friends.
 
 ## References
 
