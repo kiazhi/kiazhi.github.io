@@ -193,6 +193,11 @@ command. For more information about `zypper`, you can refer to the documentation
 instance running on Windows Subsystem for Linux are not maintained by Windows
 Updates.
 
+> Note: You can obtain openSUSE repository uri for the specific
+[distribution](https://download.opensuse.org/distribution/) and
+[update](https://download.opensuse.org/update/) releases from
+[https://download.opensuse.org/](https://download.opensuse.org/).
+
 ```sh
 # Remove old repository uri
 sudo zypper removerepo oss oss_update
