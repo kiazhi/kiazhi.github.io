@@ -65,6 +65,24 @@
         </li>
       {% endif %}
 
+      {% include author-profile-custom-links.html %}
+
+      {% if author.linkedin %}
+      <li>
+        <a href="https://www.linkedin.com/in/{{ author.linkedin }}" itemprop="sameAs">
+          <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn
+        </a>
+      </li>
+      {% endif %}
+
+      {% if author.github %}
+      <li>
+        <a href="https://github.com/{{ author.github }}" itemprop="sameAs">
+          <i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub
+        </a>
+      </li>
+      {% endif %}
+      
       {% if author.keybase %}
         <li>
           <a href="https://keybase.io/{{ author.keybase }}" itemprop="sameAs">
@@ -97,14 +115,6 @@
         </li>
       {% endif %}
 
-      {% if author.linkedin %}
-        <li>
-          <a href="https://www.linkedin.com/in/{{ author.linkedin }}" itemprop="sameAs">
-            <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn
-          </a>
-        </li>
-      {% endif %}
-
       {% if author.xing %}
         <li>
           <a href="https://www.xing.com/profile/{{ author.xing }}" itemprop="sameAs">
@@ -133,14 +143,6 @@
         <li>
           <a href="https://bitbucket.org/{{ author.bitbucket }}" itemprop="sameAs">
             <i class="fab fa-fw fa-bitbucket" aria-hidden="true"></i> Bitbucket
-          </a>
-        </li>
-      {% endif %}
-
-      {% if author.github %}
-        <li>
-          <a href="https://github.com/{{ author.github }}" itemprop="sameAs">
-            <i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub
           </a>
         </li>
       {% endif %}
@@ -257,7 +259,6 @@
         </li>
       {% endif %}
 
-      {% include author-profile-custom-links.html %}
     </ul>
   </div>
 </div>
