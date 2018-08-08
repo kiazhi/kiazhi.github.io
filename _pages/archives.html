@@ -17,10 +17,10 @@ header:
     {% capture written_year %}{{ year }}{% endcapture %}
   {% endif %}
 
-  <!-- kiazhi.github.io - Archives - In-Feed Text Advertisement -->
+  <!-- kiazhi.github.io - In-Feed - Text Advertisement -->
   {% assign loopindex = forloop.index | modulo: 2 %}
   {% if loopindex == 1 %}
-    {% include /advertisements/in-feed/archives.html %}
+    {% include /advertisements/in-feed.html %}
   {% endif %}
 
   {% include archive-single.html %}

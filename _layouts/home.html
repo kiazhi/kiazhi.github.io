@@ -6,7 +6,7 @@ layout: archive
 
 {% for post in paginator.posts %}
 
-    <!-- kiazhi.github.io - Home - Native In-Feed Text Advertisement -->
+    <!-- kiazhi.github.io - In-Feed - Text Advertisement -->
     {% assign loopindex = forloop.index | modulo: 2 %}
     {% if loopindex == 1 %}
         {% include /advertisements/in-feed.html %}

@@ -16,10 +16,10 @@ header:
   <h2 id="{{ category | slugify }}" class="archive__subtitle">{{ category }}</h2>
   {% for post in posts %}
 
-    <!-- kiazhi.github.io - Categories - In-Feed Text Advertisement -->
+    <!-- kiazhi.github.io - In-Feed - Text Advertisement -->
     {% assign loopindex = forloop.index | modulo: 2 %}
     {% if loopindex == 1 %}
-      {% include /advertisements/in-feed/categories.html %}
+      {% include /advertisements/in-feed.html %}
     {% endif %}
 
     {% include archive-single.html %}
