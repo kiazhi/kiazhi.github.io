@@ -44,7 +44,18 @@ can find out more about it [here](https://docs.docker.com/registry/).
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
-{% include /advertisements/in-feed.html %}
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 
 ## Pre-requisite requirements
 
@@ -63,6 +74,19 @@ installation sections.
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+
 ## Creating Azure Container Registry using PowerShell
 
 This section covers how to use PowerShell commands from AzureRM module to
@@ -71,6 +95,19 @@ container images.
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
+
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 
 ### Installation of AzureRM for Windows PowerShell
 
@@ -93,6 +130,19 @@ Import-Module `
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
+
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 
 ### Installation of AzureRM for PowerShell Core
 
@@ -117,6 +167,19 @@ Import-Module `
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+
 ### Login to Azure
 
 Use `Connect-AzureRmAccount` cmdlet to prompt for your Azure sign-in credential.
@@ -128,6 +191,19 @@ Connect-AzureRmAccount ;
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
+
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 
 ### Select an Azure subscription
 
@@ -151,6 +227,19 @@ Select-AzureRmSubscription `
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
+
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 
 ### Create a resource group for container registry
 
@@ -177,6 +266,19 @@ New-AzureRmResourceGroup `
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+
 ### Create a container registry in the resource group
 
 Now, create the Azure Container Registry (ACR) using the 
@@ -199,6 +301,19 @@ $ContainerRegistry = New-AzureRMContainerRegistry `
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+
 ### Login to container registry
 
 Use `Get-AzureRmContainerRegistryCredential` cmdlet to retrieve the
@@ -220,6 +335,19 @@ $Credential.Password | `
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
+
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 
 ### Pull a public container and push to your private container registry
 
@@ -253,6 +381,19 @@ docker push "$($ContainerRegistry.LoginServer)/nanoserver.powershell:latest"
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+
 ## Creating Azure Container Registry using Azure CLI
 
 This section covers how to use Azure CLI commands to perform the same task in
@@ -260,6 +401,19 @@ creating an Azure Container Registry (ACR) to store our container images.
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
+
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 
 ### Installation of Azure CLI with Windows
 
@@ -278,6 +432,19 @@ msiexec /i %USERPROFILE%\Downloads\azure-cli.msi
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
+
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 
 ### Installation of Azure CLI with Apt
 
@@ -301,6 +468,19 @@ sudo apt-get install apt-transport-https && sudo apt-get update && sudo apt-get 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+
 ### Installation of Azure CLI with Yum
 
 For RedHat, Fedora or CentOS users, you can follow this guide on installing the
@@ -320,6 +500,19 @@ sudo yum install azure-cli
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
+
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 
 ### Installation of Azure CLI with Zypper 
 
@@ -341,6 +534,19 @@ sudo zypper install --from azure-cli -y azure-cli
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+
 ### Login to Azure
 
 Use `az login` command to prompt for your Azure sign-in credential.
@@ -352,6 +558,19 @@ az login
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
+
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 
 ### Select an Azure subscription
 
@@ -373,6 +592,19 @@ az account set --subscription $AZURE_SUBSCRIPTION_ID
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
+
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 
 ### Create a resource group for container registry
 
@@ -396,6 +628,19 @@ az group create --name containers --location southeastasia
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+
 ### Create a container registry in the resource group
 
 Now, create the Azure Container Registry (ACR) using the 
@@ -413,6 +658,19 @@ az acr create --resource-group containers --name containerRegistry001 --sku Basi
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+
 ### Login to container registry
 
 Next, you will use `az acr login` command to login to the Azure Container
@@ -425,6 +683,19 @@ az acr login --name containerRegistry001
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
+
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 
 ### List the container registry fully qualified domain name
 
@@ -439,6 +710,19 @@ az acr list --resource-group containers --query "[].{acrLoginServer:loginServer}
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
+
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 
 ### Pull a public container and push to your private container registry
 
@@ -473,6 +757,19 @@ docker push $ACR_FQDN/nanoserver.powershell:latest
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+
 ## Conclusion
 
 Finally, clear the deck and start pushing those containers to your new private
@@ -490,6 +787,19 @@ it with your colleagues and friends.
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+
 ## Reference
 
 - [About Container Registry](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-intro)
@@ -500,9 +810,35 @@ it with your colleagues and friends.
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+
 ## Related Books
 
 <div id="amzn-assoc-ad-a6068eed-5536-4842-b4f6-903cfe50150d"></div><script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=a6068eed-5536-4842-b4f6-903cfe50150d"></script>
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
+
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>

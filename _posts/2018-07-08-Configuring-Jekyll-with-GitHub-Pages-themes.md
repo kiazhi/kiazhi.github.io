@@ -49,6 +49,19 @@ of themes available out there but we will only be discussing on the following
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+
 ## Setting up Jekyll for GitHub Pages themes 
 
 After you had executed `jeykll new .` in your local repository path to create a
@@ -76,6 +89,19 @@ File.write('Gemfile', text.gsub(/# gem\ \"github-pages\"/, 'gem \"github-pages\"
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+
 ## Choose a GitHub Pages themes
 
 Once the Gemfile has been setup to use GitHub Pages for the local Jekyll
@@ -85,6 +111,19 @@ value of chosen GitHub Pages theme.
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
+
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 
 ### Architect
 
@@ -99,6 +138,19 @@ File.write('_config.yml', text.gsub(/theme: minima/, 'theme: jekyll-theme-archit
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+
 ### Cayman
 
 To apply your Jekyll site with this GitHub Pages theme, execute the following
@@ -111,6 +163,19 @@ File.write('_config.yml', text.gsub(/theme: minima/, 'theme: jekyll-theme-cayman
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
+
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 
 ### Dinky
 
@@ -125,6 +190,19 @@ File.write('_config.yml', text.gsub(/theme: minima/, 'theme: jekyll-theme-dinky'
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+
 ### Hacker
 
 To apply your Jekyll site with this GitHub Pages theme, execute the following
@@ -137,6 +215,19 @@ File.write('_config.yml', text.gsub(/theme: minima/, 'theme: jekyll-theme-hacker
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
+
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 
 ### Leap Day
 
@@ -151,6 +242,19 @@ File.write('_config.yml', text.gsub(/theme: minima/, 'theme: jekyll-theme-leap-d
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+
 ### Merlot
 
 To apply your Jekyll site with this GitHub Pages theme, execute the following
@@ -163,6 +267,19 @@ File.write('_config.yml', text.gsub(/theme: minima/, 'theme: jekyll-theme-merlot
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
+
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 
 ### Midnight
 
@@ -177,6 +294,19 @@ File.write('_config.yml', text.gsub(/theme: minima/, 'theme: jekyll-theme-midnig
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+
 ### Minimal
 
 To apply your Jekyll site with this GitHub Pages theme, execute the following
@@ -189,6 +319,19 @@ File.write('_config.yml', text.gsub(/theme: minima/, 'theme: jekyll-theme-minima
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
+
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 
 ### Modernist
 
@@ -203,6 +346,19 @@ File.write('_config.yml', text.gsub(/theme: minima/, 'theme: jekyll-theme-modern
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+
 ### Slate
 
 To apply your Jekyll site with this GitHub Pages theme, execute the following
@@ -215,6 +371,19 @@ File.write('_config.yml', text.gsub(/theme: minima/, 'theme: jekyll-theme-slate'
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
+
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 
 ### Tactile
 
@@ -229,6 +398,19 @@ File.write('_config.yml', text.gsub(/theme: minima/, 'theme: jekyll-theme-tactil
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+
 ### Time Machine
 
 To apply your Jekyll site with this GitHub Pages theme, execute the following
@@ -241,6 +423,19 @@ File.write('_config.yml', text.gsub(/theme: minima/, 'theme: jekyll-theme-time-m
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
+
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 
 ## Modify the layout value for site index page
 
@@ -255,6 +450,19 @@ File.write('index.md', text.gsub(/layout: home/, 'layout: default'))"
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+
 ## Update all your gems
 
 Once you have configured your preferred GitHub Pages theme using Ruby above,
@@ -267,6 +475,19 @@ bundle update
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
+
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 
 ## Preview your site
 
@@ -281,6 +502,19 @@ bundle exec jekyll serve
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
+
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 
 ## Conclusion
 
@@ -305,9 +539,35 @@ easy with keyboard.
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
-# Related Books
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+
+## Related Books
 
 <div id="amzn-assoc-ad-f3a340a5-ce4d-4b4c-b409-c4c202ba7ffe"></div><script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=f3a340a5-ce4d-4b4c-b409-c4c202ba7ffe"></script>
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
+
+<!-- kiazhi.github.io - In-Article - Text & Image Advertisement -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-8419393181202253"
+     data-ad-slot="9347590764"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
