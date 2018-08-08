@@ -48,6 +48,8 @@ this to help myself in remembering the process. :)
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+
 ## Pre-requisite requirements
 
 - [GitHub User Account](https://github.com/join)
@@ -69,6 +71,8 @@ this to help myself in remembering the process. :)
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 
 ### Create a GitHub Repository
 
@@ -114,6 +118,8 @@ curl -u '$GITHUB_USERNAME:$GITHUB_ACCESS_TOKEN' https://api.github.com/user/repo
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+
 ### Clone GitHub remote repository to local file system
 
 Once you have created the repository, you will need to find a local file system
@@ -145,6 +151,8 @@ git clone https://github.com/$GITHUB_USERNAME/$GITHUB_USERNAME.github.io.git
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+
 ### Install Bundler and Jekyll
 
 Before we use `gem install` command on your terminal, make sure you have Ruby
@@ -171,6 +179,8 @@ gem install bundler jekyll
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 
 ### Create your new Jekyll site
 
@@ -202,6 +212,8 @@ jekyll new .
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+
 ### Generate static site and preview site locally
 
 Next, we can generates the static site and preview the site locally use loopback
@@ -232,6 +244,8 @@ serving the site and returns back to shell.
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
+
 ### Publishing static site to GitHub.io
 
 Finally, when you are satisfied with the site content and layout preview, use
@@ -257,6 +271,8 @@ git push -u origin master
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 
 ## Conclusion
 
@@ -303,6 +319,8 @@ more on this and provide myself this new challenge. Hack-on...
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+<hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 
 # Related Books
 
