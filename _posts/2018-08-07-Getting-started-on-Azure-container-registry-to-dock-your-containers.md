@@ -44,6 +44,8 @@ can find out more about it [here](https://docs.docker.com/registry/).
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
+{% include /advertisements/in-feed.html %}
+
 ## Pre-requisite requirements
 
 - An Azure Subscription (If you do not have one yet, you can start
