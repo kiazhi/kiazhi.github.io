@@ -12,9 +12,8 @@ categories:
   - Blog
 tags:
   - Blog
-  - Jekyll
-  - GitHub
   - Ruby
+  - Ubuntu
   - Windows
   - "Windows Subsystem for Linux"
   - "Ryen Tang"
@@ -153,7 +152,7 @@ it with your colleagues and friends.
 
 - [Ubuntu Packages Search](https://packages.ubuntu.com/)
 - [Ruby 2.5.0 Released](https://www.ruby-lang.org/en/news/2017/12/25/ruby-2-5-0-released/)
-- [Ruby 2.5.0 Released](https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-5-1-released/)
+- [Ruby 2.5.1 Released](https://www.ruby-lang.org/en/news/2018/03/28/ruby-2-5-1-released/)
 - [Windows Subsystem for Linux Documentation](https://docs.microsoft.com/en-us/windows/wsl/about)
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
