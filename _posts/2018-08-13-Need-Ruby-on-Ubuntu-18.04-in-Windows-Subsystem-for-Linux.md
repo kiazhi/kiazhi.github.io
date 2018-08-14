@@ -129,6 +129,10 @@ Subsystem for Linux (WSL). The actual problem is because Ruby 2.4 package is
 not available for Ubuntu 18.04 bionic and Ruby 2.5 is the recommended package
 instead.
 
+To check if the package you are looking for is available for your Ubuntu
+version, visit the [Ubuntu Packages Search](https://packages.ubuntu.com/)
+site and search the package name.
+
 If you find that this information useful, feel free to bookmark this or share
 it with your colleagues and friends.
 
