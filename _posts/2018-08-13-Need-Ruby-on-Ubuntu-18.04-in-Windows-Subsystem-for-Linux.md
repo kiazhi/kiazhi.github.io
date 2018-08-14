@@ -20,13 +20,13 @@ tags:
 ---
 
 Recently, I decided to unregister my existing Ubuntu 16.04 on Windows Subsystem
-for Linux (WSL) and start over again to try to upgrade it to Ubuntu 18.04 to
-create this
+for Linux (WSL) and start over again because I wanted to try upgrading it to Ubuntu 18.04 for
+this
 [Getting Ubuntu distro environment on Windows for DevOps](https://kiazhi.github.io/blog/Getting-Ubuntu-distro-environment-on-Windows-for-DevOps/)
 blog post.
 
 After I have upgraded to Ubuntu 18.04, I tried to follow those steps again to
-obtain Ruby 2.4 for working with Jeykll from my previous
+obtain Ruby 2.4 to work with Jeykll from my previous
 [Working with Ruby and Jekyll on Windows for GitHub Pages](https://kiazhi.github.io/blog/Working-with-Jekyll-and-Ruby-on-Windows-for-GitHub-Pages/)
 blog post and stumble on this Ruby installation issue.
 
