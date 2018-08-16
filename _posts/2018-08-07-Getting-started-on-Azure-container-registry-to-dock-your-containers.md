@@ -15,6 +15,7 @@ categories:
 tags:
   - Blog
   - Cloud
+  - Container
   - Azure
   - AzureCLI
   - PowerShell
