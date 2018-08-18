@@ -42,8 +42,8 @@ On my free time, I loves to contribute back to the IT community with knowledge
 and skills learnt from my experience to enrich the practices for the next person
 who may endeavour on the same journey or beyond. I started off by blogging in my
 previous ([ryentang.wordpress.com](https://ryentang.wordpress.com)) blog site
-serves by Wordpress.com for the sake of documenting my learnings to avoid from
-suffering of digital amnesia in this modern world.
+serves by Wordpress.com for the sake of documenting what I learnt to avoid from
+suffering digital amnesia in this modern world.
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
