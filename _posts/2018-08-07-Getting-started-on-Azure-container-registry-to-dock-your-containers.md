@@ -157,12 +157,11 @@ to import the module into the current PowerShell Core console session.
 # Install Azure PowerShell module
 Install-Module `
     -Name "AzureRm.NetCore" `
-    -Scope "CurrentUser"
     -Force ;
 
 # Import Azure PowerShell module
 Import-Module `
-    -Name "AzureRm" ;
+    -Name "AzureRm.NetCore" ;
 ```
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
