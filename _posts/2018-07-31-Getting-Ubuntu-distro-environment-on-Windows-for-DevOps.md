@@ -13,6 +13,8 @@ categories:
 tags:
   - Blog
   - Windows
+  - Linux
+  - Ubuntu
   - "Windows Subsystem for Linux"
   - "Ryen Tang"
 ---

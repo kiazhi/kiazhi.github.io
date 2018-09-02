@@ -13,6 +13,8 @@ categories:
 tags:
   - Blog
   - Windows
+  - Linux
+  - openSUSE
   - "Windows Subsystem for Linux"
   - "Ryen Tang"
 ---

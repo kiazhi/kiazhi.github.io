@@ -13,6 +13,7 @@ categories:
 tags:
   - Blog
   - Ruby
+  - Linux
   - Ubuntu
   - Windows
   - "Windows Subsystem for Linux"
