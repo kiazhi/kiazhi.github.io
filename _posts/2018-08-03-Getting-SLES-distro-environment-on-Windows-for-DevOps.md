@@ -102,7 +102,7 @@ feature
 
 ```powershell
 Enable-WindowsOptionalFeature `
-    -FeatureName Microsoft-Windows-Subsystem-Linux `
+    -FeatureName "Microsoft-Windows-Subsystem-Linux" `
     -Online `
     -NoRestart:$False ;
 ```
@@ -155,8 +155,8 @@ the linux distro application package to your home folder.
 ```powershell
 # Download SUSE Linux Enterprise Server 12 WSL application
 Invoke-WebRequest `
-    -Uri https://aka.ms/wsl-sles-12 `
-    -OutFile ~\SLES-12_v1.appx `
+    -Uri "https://aka.ms/wsl-sles-12" `
+    -OutFile "~\SLES-12_v1.appx" `
     -UseBasicParsing ;
 ```
 
@@ -184,7 +184,7 @@ distro application package to your Windows 10.
 ```powershell
 # Install the SUSE Linux Enterprise Server 12 WSL application
 Add-AppxPackage `
-    -Path ~\SLES-12_v1.appx ;
+    -Path "~\SLES-12_v1.appx" ;
 ```
 
 During your initial launch of SUSE Enterprise Linux Server (SLES) on Windows
@@ -235,17 +235,17 @@ of the linux distro instance.
 ```powershell
 # Rename the file extension to compressed file extension
 Rename-Item `
-    -Path ~\SLES-12_v1.appx `
-    -NewName SLES-12_v1.zip ;
+    -Path "~\SLES-12_v1.appx" `
+    -NewName "SLES-12_v1.zip" ;
 
 # Expand the compressed file to destination
 Expand-Archive `
-    -Path ~\SLES-12_v1.zip `
-    -DestinationPath ~\.wsl\distro\SLES ;
+    -Path "~\SLES-12_v1.zip" `
+    -DestinationPath "~\.wsl\distro\SLES" ;
 
 # Launch the distro setup
 Start-Process `
-    -FilePath ~\.wsl\distro\SLES\SLES-12.exe ;
+    -FilePath "~\.wsl\distro\SLES\SLES-12.exe" ;
 ```
 
 Once the `SLES-12.exe` is running, the installation will begin and you will be

@@ -95,7 +95,7 @@ feature
 
 ```powershell
 Enable-WindowsOptionalFeature `
-    -FeatureName Microsoft-Windows-Subsystem-Linux `
+    -FeatureName "Microsoft-Windows-Subsystem-Linux" `
     -Online `
     -NoRestart:$False ;
 ```
@@ -148,8 +148,8 @@ the linux distro application package to your home folder.
 ```powershell
 # Download Ubuntu application for WSL
 Invoke-WebRequest `
-    -Uri https://aka.ms/wsl-ubuntu `
-    -OutFile ~\Ubuntu.appx `
+    -Uri "https://aka.ms/wsl-ubuntu" `
+    -OutFile "~\Ubuntu.appx" `
     -UseBasicParsing ;
 ```
 
@@ -177,7 +177,7 @@ distro application package to your Windows 10.
 ```powershell
 # Install the Ubuntu application for WSL
 Add-AppxPackage `
-    -Path ~/Ubuntu.appx ;
+    -Path "~/Ubuntu.appx" ;
 ```
 
 During your initial launch of Ubuntu on Windows 10, you will be requested to
@@ -222,17 +222,17 @@ of the linux distro instance.
 ```powershell
 # Rename the file extension to compressed file extension
 Rename-Item `
-    -Path ~\Ubuntu.appx `
-    -NewName Ubuntu.zip ;
+    -Path "~\Ubuntu.appx" `
+    -NewName "Ubuntu.zip" ;
 
 # Expand the compressed file to destination
 Expand-Archive `
-    -Path ~\Ubuntu.zip `
-    -DestinationPath ~\.wsl\distro\Ubuntu ;
+    -Path "~\Ubuntu.zip" `
+    -DestinationPath "~\.wsl\distro\Ubuntu" ;
 
 # Launch the distro setup
 Start-Process `
-    -FilePath ~\.wsl\distro\Ubuntu\Ubuntu.exe ;
+    -FilePath "~\.wsl\distro\Ubuntu\Ubuntu.exe" ;
 ```
 
 Once the `Ubuntu.exe` is running, the installation will begin and you will be

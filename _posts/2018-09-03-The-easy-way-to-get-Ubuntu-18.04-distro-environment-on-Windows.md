@@ -102,7 +102,7 @@ if((Get-WindowsOptionalFeature `
     # Enable Microsoft-Windows-Subsystem-Linux feature if
     #  the feature is not enabled
     Enable-WindowsOptionalFeature `
-        -FeatureName Microsoft-Windows-Subsystem-Linux `
+        -FeatureName "Microsoft-Windows-Subsystem-Linux" `
         -Online `
         -NoRestart:$False ;
 }
@@ -129,14 +129,14 @@ if((Get-WindowsOptionalFeature `
 Once we have confirmed that requirement of Windows Subsystem for Linux feature
 is enabled, we can initiate a download of Ubuntu 18.04 application.
 
-> Note: You can rename the `-OutFile <long file name>` to
-`-OutFile ~\Ubuntu1804.appx` instead of the long file name.
+> Note: You can rename the `-OutFile "<long file name>"` to
+`-OutFile "~\Ubuntu1804.appx"` instead of the long file name.
 
 ```powershell
 # Download Ubuntu application for WSL
 Invoke-WebRequest `
-    -Uri https://aka.ms/wsl-ubuntu-1804 `
-    -OutFile ~\CanonicalGroupLimited.Ubuntu18.04onWindows_1804.2018.817.0_x64__79rhkp1fndgsc.appx `
+    -Uri "https://aka.ms/wsl-ubuntu-1804" `
+    -OutFile "~\CanonicalGroupLimited.Ubuntu18.04onWindows_1804.2018.817.0_x64__79rhkp1fndgsc.appx" `
     -UseBasicParsing ;
 ```
 
@@ -164,7 +164,7 @@ distro application package to your Windows 10.
 ```powershell
 # Install the Ubuntu application for WSL
 Add-AppxPackage `
-    -Path ~\CanonicalGroupLimited.Ubuntu18.04onWindows_1804.2018.817.0_x64__79rhkp1fndgsc.appx ;
+    -Path "~\CanonicalGroupLimited.Ubuntu18.04onWindows_1804.2018.817.0_x64__79rhkp1fndgsc.appx" ;
 ```
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
@@ -199,17 +199,17 @@ of the linux distro instance.
 ```powershell
 # Rename the file extension to compressed file extension
 Rename-Item `
-    -Path ~\CanonicalGroupLimited.Ubuntu18.04onWindows_1804.2018.817.0_x64__79rhkp1fndgsc.appx `
-    -NewName Ubuntu-1804.zip ;
+    -Path "~\CanonicalGroupLimited.Ubuntu18.04onWindows_1804.2018.817.0_x64__79rhkp1fndgsc.appx" `
+    -NewName "Ubuntu1804.zip" ;
 
 # Expand the compressed file to destination
 Expand-Archive `
-    -Path ~\Ubuntu-1804.zip `
-    -DestinationPath ~\.wsl\distro\Ubuntu ;
+    -Path "~\Ubuntu1804.zip" `
+    -DestinationPath "~\.wsl\distro\Ubuntu" ;
 
 # Launch the distro setup
 Start-Process `
-    -FilePath ~\.wsl\distro\Ubuntu\Ubuntu1804.exe ;
+    -FilePath "~\.wsl\distro\Ubuntu\Ubuntu1804.exe" ;
 ```
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
