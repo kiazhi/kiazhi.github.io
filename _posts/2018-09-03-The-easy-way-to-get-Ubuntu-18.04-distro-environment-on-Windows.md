@@ -281,7 +281,8 @@ it with your colleagues and friends.
 
 ## References
 
-- [How do I uninstall a WSL Distribution](https://docs.microsoft.com/en-us/windows/wsl/faq#how-do-i-uninstall-a-wsl-distribution)
+- [Microsoft Blogs: A Guide to Upgrading your Ubuntu App’s Release](https://blogs.msdn.microsoft.com/commandline/2018/07/09/upgrading-ubuntu/)
+- [Microsoft Docs: How do I uninstall a WSL Distribution](https://docs.microsoft.com/en-us/windows/wsl/faq#how-do-i-uninstall-a-wsl-distribution)
 - [Getting Ubuntu distro environment on Windows for DevOps](https://kiazhi.github.io/blog/Getting-Ubuntu-distro-environment-on-Windows-for-DevOps/)
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>

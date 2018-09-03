@@ -259,10 +259,10 @@ informed.
 
 ## References
 
-- [System.Runtime.InteropServices.Marshal.PtrToStringAuto()](https://msdn.microsoft.com/en-us/library/ewyktcaa%28v=vs.110%29.aspx)
-- [System.Runtime.InteropServices.Marshal.SecureStringToBSTR()](https://msdn.microsoft.com/en-us/library/system.runtime.interopservices.marshal.securestringtobstr(v=vs.110).aspx)
-- [System.Runtime.InteropServices.Marshal.PtrToStringAnsi()](https://msdn.microsoft.com/en-us/library/7b620dhe(v=vs.110).aspx)
-- [System.Security.SecureStringMarshal.SecureStringToCoTaskMemAnsi()](https://msdn.microsoft.com/en-us/library/system.security.securestringmarshal.securestringtocotaskmemansi(v=vs.110).aspx)
+- [Microsoft MSDN: System.Runtime.InteropServices.Marshal.PtrToStringAuto()](https://msdn.microsoft.com/en-us/library/ewyktcaa%28v=vs.110%29.aspx)
+- [Microsoft MSDN: System.Runtime.InteropServices.Marshal.SecureStringToBSTR()](https://msdn.microsoft.com/en-us/library/system.runtime.interopservices.marshal.securestringtobstr(v=vs.110).aspx)
+- [Microsoft MSDN: System.Runtime.InteropServices.Marshal.PtrToStringAnsi()](https://msdn.microsoft.com/en-us/library/7b620dhe(v=vs.110).aspx)
+- [Microsoft MSDN: System.Security.SecureStringMarshal.SecureStringToCoTaskMemAnsi()](https://msdn.microsoft.com/en-us/library/system.security.securestringmarshal.securestringtocotaskmemansi(v=vs.110).aspx)
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>

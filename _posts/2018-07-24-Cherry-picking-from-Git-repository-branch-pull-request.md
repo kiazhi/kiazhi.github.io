@@ -406,10 +406,10 @@ informed.
 
 ## References
 
-- [Git fetch](https://git-scm.com/docs/git-fetch)
-- [Git reset](https://git-scm.com/docs/git-reset)
-- [Git cherry-pick](https://git-scm.com/docs/git-cherry-pick)
-- [GitHub Hub pull-request](https://hub.github.com/hub-pull-request.1.html)
+- [Git-SCM Docs: Git fetch](https://git-scm.com/docs/git-fetch)
+- [Git-SCM Docs: Git reset](https://git-scm.com/docs/git-reset)
+- [Git-SCM Docs: Git cherry-pick](https://git-scm.com/docs/git-cherry-pick)
+- [Github Hub Manual: GitHub Hub pull-request](https://hub.github.com/hub-pull-request.1.html)
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>

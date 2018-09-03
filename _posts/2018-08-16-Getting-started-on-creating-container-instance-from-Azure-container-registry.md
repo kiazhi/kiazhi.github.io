@@ -468,11 +468,11 @@ it with your colleagues and friends.
 
 ## Reference
 
-- [Azure Container Instances Documentation](https://docs.microsoft.com/en-us/azure/container-instances/)
-- [Quickstart: Create your first container in Azure Container Instances using PowerShell](https://docs.microsoft.com/en-us/azure/container-instances/container-instances-quickstart-powershell)
-- [Quickstart: Create your first container in Azure Container Instances using Azure CLI](https://docs.microsoft.com/en-us/azure/container-instances/container-instances-quickstart)
-- [PowerShell - New-AzureRmContainerGroup](https://docs.microsoft.com/en-us/powershell/module/azurerm.containerinstance/new-azurermcontainergroup)
-- [Azure CLI - az container create](https://docs.microsoft.com/en-us/cli/azure/container#az-container-create)
+- [Microsoft Docs: Azure Container Instances Documentation](https://docs.microsoft.com/en-us/azure/container-instances/)
+- [Microsoft Docs: Quickstart: Create your first container in Azure Container Instances using PowerShell](https://docs.microsoft.com/en-us/azure/container-instances/container-instances-quickstart-powershell)
+- [Microsoft Docs: Quickstart: Create your first container in Azure Container Instances using Azure CLI](https://docs.microsoft.com/en-us/azure/container-instances/container-instances-quickstart)
+- [Microsoft Docs: PowerShell: New-AzureRmContainerGroup](https://docs.microsoft.com/en-us/powershell/module/azurerm.containerinstance/new-azurermcontainergroup)
+- [Microsoft Docs: Azure CLI: az container create](https://docs.microsoft.com/en-us/cli/azure/container#az-container-create)
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>

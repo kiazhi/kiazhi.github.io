@@ -313,8 +313,8 @@ Linux on Windows 10 that ends my mickey mouse around with Ruby and Dev Kits on W
 
 ## References
 
-- [Windows Subsystem for Linux Documentation](https://docs.microsoft.com/en-us/windows/wsl/about)
-- [Windows 10 Installation Guide](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+- [Microsoft Docs: Windows Subsystem for Linux Documentation](https://docs.microsoft.com/en-us/windows/wsl/about)
+- [Microsoft Docs: Windows 10 Installation Guide](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>

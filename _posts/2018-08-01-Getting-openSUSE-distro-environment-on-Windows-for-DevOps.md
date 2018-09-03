@@ -479,8 +479,9 @@ it with your colleagues and friends.
 
 ## References
 
-- [Initializing a newly installed distro](https://docs.microsoft.com/en-us/windows/wsl/initialize-distro)
-- [openSUSE - Running the Upgrade](https://en.opensuse.org/SDB:System_upgrade)
+- [Micrsoft Blogs: SUSE’s Linux distros for WSL now available in the Windows Store](https://blogs.msdn.microsoft.com/commandline/2017/07/19/suses-linux-distros-for-wsl-now-available-in-the-windows-store/)
+- [Microsoft Docs: Initializing a newly installed distro](https://docs.microsoft.com/en-us/windows/wsl/initialize-distro)
+- [openSUSE Wiki: openSUSE - Running the Upgrade](https://en.opensuse.org/SDB:System_upgrade)
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>

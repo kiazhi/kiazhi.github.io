@@ -459,10 +459,10 @@ it with your colleagues and friends.
 
 ## References
 
-- [Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/aks/)
-- [Quickstart: Deploy an Azure Kubernetes Service (AKS) cluster using Azure CLI](https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough)
-- [Kubectl Commands](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands)
-- [Kubectl Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
+- [Microsoft Docs: Azure Kubernetes Service (AKS)](https://docs.microsoft.com/en-us/azure/aks/)
+- [Microsoft Docs: Quickstart: Deploy an Azure Kubernetes Service (AKS) cluster using Azure CLI](https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough)
+- [Kubernetes Docs: Kubectl Commands](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands)
+- [Kubernetes Docs: Kubectl Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>

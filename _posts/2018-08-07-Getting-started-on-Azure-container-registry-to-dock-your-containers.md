@@ -802,10 +802,10 @@ it with your colleagues and friends.
 
 ## Reference
 
-- [About Container Registry](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-intro)
-- [Azure Container Registry SKUs](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-skus)
-- [Quickstart: Create an Azure Container Registry using PowerShell](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-get-started-powershell)
-- [Quickstart: Create a container registry using the Azure CLI](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-get-started-azure-cli)
+- [Microsoft Docs: About Container Registry](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-intro)
+- [Microsoft Docs: Azure Container Registry SKUs](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-skus)
+- [Microsoft Docs: Quickstart: Create an Azure Container Registry using PowerShell](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-get-started-powershell)
+- [Microsoft Docs: Quickstart: Create a container registry using the Azure CLI](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-get-started-azure-cli)
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>

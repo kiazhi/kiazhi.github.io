@@ -530,9 +530,9 @@ the blog post to others and keep them informed.
 
 ## References
 
-- [ServicePointManager Class](https://msdn.microsoft.com/en-us/library/system.net.servicepointmanager(v=vs.110).aspx)
-- [ServicePointManager.SecurityProtocol Property](https://msdn.microsoft.com/en-us/library/system.net.servicepointmanager.securityprotocol(v=vs.110).aspx)
-- [SecurityProtocolType Enumeration](https://msdn.microsoft.com/en-us/library/system.net.securityprotocoltype(v=vs.110).aspx)
+- [Microsoft MSDN: ServicePointManager Class](https://msdn.microsoft.com/en-us/library/system.net.servicepointmanager(v=vs.110).aspx)
+- [Microsoft MSDN: ServicePointManager.SecurityProtocol Property](https://msdn.microsoft.com/en-us/library/system.net.servicepointmanager.securityprotocol(v=vs.110).aspx)
+- [Microsoft MSDN: SecurityProtocolType Enumeration](https://msdn.microsoft.com/en-us/library/system.net.securityprotocoltype(v=vs.110).aspx)
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>

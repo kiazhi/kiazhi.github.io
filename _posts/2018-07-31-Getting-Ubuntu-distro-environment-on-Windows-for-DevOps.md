@@ -405,8 +405,8 @@ it with your colleagues and friends.
 
 ## References
 
-- [A Guide to Upgrading your Ubuntu App’s Release](https://blogs.msdn.microsoft.com/commandline/2018/07/09/upgrading-ubuntu/)
-- [Initializing a newly installed distro](https://docs.microsoft.com/en-us/windows/wsl/initialize-distro)
+- [Microsoft Blogs: A Guide to Upgrading your Ubuntu App’s Release](https://blogs.msdn.microsoft.com/commandline/2018/07/09/upgrading-ubuntu/)
+- [Microsoft Docs: Initializing a newly installed distro](https://docs.microsoft.com/en-us/windows/wsl/initialize-distro)
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>

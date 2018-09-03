@@ -413,7 +413,7 @@ There you have it, start gitting.
 - [Git Repository](https://github.com/git/git/)
 - [Git Documentation](https://git-scm.com/docs)
 - [Pro Git Book](https://git-scm.com/book/en/v2)
-- [GitHub - Git Cheat Sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
+- [GitHub Download: GitHub - Git Cheat Sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
