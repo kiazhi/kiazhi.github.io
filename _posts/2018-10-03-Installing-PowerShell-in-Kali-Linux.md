@@ -22,14 +22,14 @@ tags:
 
 After ploughing through the internet and found the the following
 [Microsoft Docs - Installing PowerShell Core on Linux](https://docs.microsoft.com/en-us/powershell/scripting/setup/installing-powershell-core-on-linux#Kali)
-documentation for Kali, I discovered that the steps may have been obselete and
-requires updating since there are a few people commenting the installation for
-[Kali](https://www.kali.org/) just does not work with an
-[Issue #2901](https://github.com/PowerShell/PowerShell-Docs/issues/2901) raised
+documentation for Kali, I discovered the documented steps may have been
+obselete and requires updating since there are a few people commenting the
+installation for [Kali](https://www.kali.org/) just does not work with an
+issue [#2901](https://github.com/PowerShell/PowerShell-Docs/issues/2901) raised
 in [PowerShell/PowerShell-Docs](https://github.com/PowerShell/PowerShell-Docs)
 public repository in [GitHub](https://github.com/).
 
-**Original steps below:**
+**Original steps from documentation below:**
 ```sh
 # Download & Install prerequisites
 sudo apt-get install libunwind8 libicu55
