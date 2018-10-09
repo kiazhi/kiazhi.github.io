@@ -296,8 +296,8 @@ Updates.
 sudo zypper removerepo oss oss_update
 
 # Add openSUSE Leap 42.3 repository uri
-zypper addrepo --check --refresh --name 'oss_42.3' http://download.opensuse.org/distribution/leap/42.3/repo/oss/suse/ oss
-zypper addrepo --check --refresh --name 'oss_42.3_update' http://download.opensuse.org/update/leap/42.3/oss/ oss_update
+sudo zypper addrepo --check --refresh --name 'oss_42.3' http://download.opensuse.org/distribution/leap/42.3/repo/oss/suse/ oss
+sudo zypper addrepo --check --refresh --name 'oss_42.3_update' http://download.opensuse.org/update/leap/42.3/oss/ oss_update
 
 # Refresh and update openSUSE
 sudo zypper refresh && sudo zypper update
@@ -385,8 +385,8 @@ distro upgrade to openSUSE Leap 15.0.
 sudo zypper removerepo oss oss_update
 
 # Add openSUSE Leap 15.0 repository uri
-zypper addrepo --check --refresh --name 'oss_15.0' http://download.opensuse.org/distribution/leap/15.0/repo/oss/ oss
-zypper addrepo --check --refresh --name 'oss_15.0_update' http://download.opensuse.org/update/leap/15.0/oss/ oss_update
+sudo zypper addrepo --check --refresh --name 'oss_15.0' http://download.opensuse.org/distribution/leap/15.0/repo/oss/ oss
+sudo zypper addrepo --check --refresh --name 'oss_15.0_update' http://download.opensuse.org/update/leap/15.0/oss/ oss_update
 
 # Refresh and upgrade openSUSE
 sudo zypper refresh && sudo zypper dist-upgrade
@@ -430,7 +430,7 @@ repository name.
 sudo zypper removerepo oss oss_update
 
 # Add openSUSE Leap 15.1 repository uri
-zypper addrepo --check --refresh --name 'oss_15.1' http://download.opensuse.org/distribution/leap/15.1/repo/oss/ oss
+sudo zypper addrepo --check --refresh --name 'oss_15.1' http://download.opensuse.org/distribution/leap/15.1/repo/oss/ oss
 
 # Refresh and update openSUSE
 sudo zypper refresh && sudo zypper update
