@@ -29,7 +29,7 @@ Dockerfile.
 ## Getting PowerShell in Kali Linux container
 
 In this section, I will provide a walkthrough on scripting the installation of
-PowerShell to Kali Linux container in a Dockefile that will used by the
+PowerShell to Kali Linux container in a Dockefile that will be used by the
 DockerCLI `docker build` command.
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
@@ -50,7 +50,7 @@ DockerCLI `docker build` command.
 
 ### Pulling Kali Linux container image
 
-Firestly, you will have to launch Visual Studio Code or any text editor to
+Firstly, you will have to launch Visual Studio Code or any text editor to
 create a `Dockerfile` with the first line instructing `docker build` to pull an
 official Kali Linux container image from the official Kali Linux container
 register repository namespace as the base image layer.
