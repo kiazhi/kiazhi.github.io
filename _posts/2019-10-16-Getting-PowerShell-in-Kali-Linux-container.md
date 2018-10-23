@@ -557,6 +557,12 @@ PS />
 
 There you have it on how you can obtain PowerShell in Kali Linux container.
 
+> Note: If you followed the walkthrough above line by line, please kindly take
+note that it is not the most optimized way of building a container containing
+multiple `RUN` in Dockerfile because each `RUN` creates a new layer. The intent
+of this blog post structure containing multiple `RUN` is purely for educational
+purposes for people who are new to Docker and PowerShell on Kali Linux.
+
 If you find that this information useful, feel free to bookmark this or share
 it with your colleagues and friends.
 
