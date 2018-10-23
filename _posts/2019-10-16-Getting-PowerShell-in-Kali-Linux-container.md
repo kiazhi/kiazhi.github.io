@@ -557,11 +557,87 @@ PS />
 
 There you have it on how you can obtain PowerShell in Kali Linux container.
 
-> Note: If you followed the walkthrough above line by line, please kindly take
-note that it is not the most optimized way of building a container containing
-multiple `RUN` in Dockerfile because each `RUN` creates a new layer. The intent
-of this blog post structure containing multiple `RUN` is purely for educational
-purposes for people who are new to Docker and PowerShell on Kali Linux.
+> Note:
+>
+> If you followed the walkthrough above line by line, please kindly take
+> note that it is not the most optimized way of building a container containing
+> multiple `RUN` in Dockerfile because each `RUN` creates a new layer.
+>
+> The intent of this blog post structure containing multiple `RUN` is purely
+> for educational purposes for people who are new to Docker and PowerShell on
+> Kali Linux.
+>
+> For a more optimized container build, you can refer to the following
+> Dockerfile below.
+
+```dockerfile
+# Pull official Kali Linux container image
+FROM kalilinux/kali-linux-docker:kali-rolling AS build
+
+# Define Args and Env needed to create links
+ENV PS_INSTALL_FOLDER=/opt/microsoft/powershell/6 \
+    # Define ENVs for Localization/Globalization
+    DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=false \
+    LC_ALL=en_US.UTF-8 \
+    LANG=en_US.UTF-8
+
+# Download the Kali repository package
+ADD https://http.kali.org/kali/pool/main/k/kali-archive-keyring/kali-archive-keyring_2018.1_all.deb \
+    /tmp/kali-archive-keyring_2018.1_all.deb
+
+# Download the libicu57 Debian package
+ADD http://ftp.us.debian.org/debian/pool/main/i/icu/libicu57_57.1-9_amd64.deb \
+    /tmp/libicu57_57.1-9_amd64.deb
+
+# Download the PowerShell package for Debian9
+ADD https://github.com/PowerShell/PowerShell/releases/download/v6.1.0/powershell_6.1.0-1.debian.9_amd64.deb \
+    /tmp/powershell_6.1.0-1.debian.9_amd64.deb
+
+# Install and Configure
+RUN \
+    # Renew Kali repository expired certificate in the
+    # container image
+    apt-get install /tmp/kali-archive-keyring_2018.1_all.deb \
+    # Remove the downloaded package file
+    && rm -f /tmp/kali-archive-keyring_2018.1_all.deb \
+    # Update package list
+    && apt-get update \
+    # Install required libicu57
+    # (International Components for Unicode) package
+    && dpkg -i /tmp/libicu57_57.1-9_amd64.deb \
+    # Remove the downloaded package file
+    && rm -f /tmp/libicu57_57.1-9_amd64.deb \
+    # Install dependencies
+    && apt-get install -y \
+      # Required ca-certificates package for SSL
+      ca-certificates \
+      # Required less package for help in powershell
+      less \
+      # Required locales package to setup the locale
+      locales \
+    # Enable specific locale
+    && echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen \
+    # Generate the specific locale
+    && locale-gen \
+    # Update the locale
+    && update-locale \
+    # Install PowerShell package
+    && apt-get install -y /tmp/powershell_6.1.0-1.debian.9_amd64.deb \
+    # Remove the downloaded package file
+    && rm -f /tmp/powershell_6.1.0-1.debian.9_amd64.deb \
+    # Upgrade the Kali distro
+    && apt-get dist-upgrade -y \
+    # Clear retrieved package files in local repository
+    && apt-get clean \
+    # Clear the packages list download from Kali package repository
+    && rm -rf /var/lib/apt/lists/*
+
+# Configure entrypoint for the container
+ENTRYPOINT ["pwsh", "-c"]
+
+# Configure PowerShell as default shell for the container
+CMD ["pwsh"]
+```
 
 If you find that this information useful, feel free to bookmark this or share
 it with your colleagues and friends.
