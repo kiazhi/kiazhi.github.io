@@ -576,7 +576,6 @@ FROM kalilinux/kali-linux-docker:kali-rolling AS build
 
 # Define Args and Env needed to create links
 ENV PS_INSTALL_FOLDER=/opt/microsoft/powershell/6 \
-    \
     # Define ENVs for Localization/Globalization
     DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=false \
     LC_ALL=en_US.UTF-8 \
@@ -599,13 +598,10 @@ RUN \
     # Renew Kali repository expired certificate in the
     # container image
     apt-get install /tmp/kali-archive-keyring_2018.1_all.deb \
-    \
     # Remove the downloaded package file
     && rm -f /tmp/kali-archive-keyring_2018.1_all.deb \
-    \
     # Update package list
     && apt-get update \
-    \
     # Install required libicu57
     # (International Components for Unicode) package
     && dpkg -i /tmp/libicu57_57.1-9_amd64.deb \
