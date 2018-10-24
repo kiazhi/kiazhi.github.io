@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "Needing PowerShell in Parrot Linux container"
-excerpt: "Introducing PowerShell in Parrot (Parrot Security, ParrotOS, Parrot GNU/Linux) 
-container using Dockerfile and DockerCLI with Docker for security
+excerpt: "Introducing PowerShell in Parrot (Parrot Security, ParrotOS, Parrot
+GNU/Linux) container using Dockerfile and DockerCLI with Docker for security
 enthusiasts."
 author: Ryen Tang
 header:
