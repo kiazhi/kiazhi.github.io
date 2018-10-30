@@ -609,11 +609,11 @@ RUN \
     && rm -f /tmp/libicu57_57.1-9_amd64.deb \
     # Install dependencies
     && apt-get install -y \
-      # Required ca-certificates package for SSL
+      # Required package for SSL
       ca-certificates \
-      # Required less package for help in powershell
+      # Required package for help in powershell
       less \
-      # Required locales package to setup the locale
+      # Required package to setup the locale
       locales \
     # Enable specific locale
     && echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen \

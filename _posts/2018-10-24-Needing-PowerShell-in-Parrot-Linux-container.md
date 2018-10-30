@@ -84,27 +84,27 @@ ADD https://github.com/PowerShell/PowerShell/releases/download/v6.1.0/powershell
 
 # Installation and configuration
 RUN \
-    # update package list
+    # Update package list
     apt-get update \
-    # install dependencies
+    # Install dependencies
     && apt-get install -y \
-      # less is required for help in powershell
+      # Required package for help in powershell
         less \
-      # required to setup the locale
+      # Required package to setup the locale
         locales \
-    # enable en_US.UTF-8 locale
+    # Enable en_US.UTF-8 locale
     && echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen \
-    # generate locale
+    # Generate locale
     && locale-gen && update-locale \
-    # install powershell package
+    # Install powershell package
     && apt-get install -y /tmp/powershell_6.1.0-1.debian.9_amd64.deb \
-    # remove powershell package
+    # Remove powershell package
     && rm -f /tmp/powershell_6.1.0-1.debian.9_amd64.deb \
-    # upgrade distro
+    # Upgrade distro
     && apt-get dist-upgrade -y \
-    # clean downloaded packages
+    # Clean downloaded packages
     && apt-get clean \
-    # remove package list
+    # Remove package list
     && rm -rf /var/lib/apt/lists/*
 
 # Configure entrypoint for the container
