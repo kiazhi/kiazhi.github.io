@@ -82,6 +82,10 @@ ENV PS_INSTALL_FOLDER=/opt/microsoft/powershell/6 \
 ADD https://github.com/PowerShell/PowerShell/releases/download/v6.1.0/powershell_6.1.0-1.debian.9_amd64.deb \
     /tmp/powershell_6.1.0-1.debian.9_amd64.deb
 
+# Download the libicu57 Debian package and save it
+ADD http://ftp.us.debian.org/debian/pool/main/i/icu/libicu57_57.1-9_amd64.deb \
+    /tmp/libicu57_57.1-9_amd64.deb
+
 # Installation and configuration
 RUN \
     # Update package list
@@ -96,6 +100,10 @@ RUN \
     && echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen \
     # Generate locale
     && locale-gen && update-locale \
+    # install required libicu57 package
+    && dpkg -i /tmp/libicu57_57.1-9_amd64.deb \
+    # remove libicu57 package
+    && rm -f /tmp/libicu57_57.1-9_amd64.deb \
     # Install powershell package
     && apt-get install -y /tmp/powershell_6.1.0-1.debian.9_amd64.deb \
     # Remove powershell package
