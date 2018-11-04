@@ -180,7 +180,7 @@ If you requires to run the container in `bash`, you can do it on the same
 container with the command below.
 
 ```sh
-docker run --rm --interactive parrot bin/bash
+docker run --rm --interactive --tty parrot bin/bash
 ```
 
 And if you need to go back into PowerShell from the `bash` in the container,
