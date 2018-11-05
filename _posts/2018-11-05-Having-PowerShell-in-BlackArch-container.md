@@ -16,7 +16,7 @@ tags:
   - Blog
   - Container
   - Linux
-  - "BlackArch"
+  - BlackArch
   - PowerShell
   - "Ryen Tang"
 ---
