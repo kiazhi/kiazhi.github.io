@@ -25,7 +25,7 @@ With my previous blog posts about installing PowerShell on the following Linux
 distros:
 
 - [Kali Linux](https://kiazhi.github.io/blog/powershell/Getting-PowerShell-in-Kali-Linux-container/)
-- [Parrot Linux](https://kiazhi.github.io/blog/powershell/Needing-PowerShell-in-Kali-Linux-container/)
+- [Parrot Linux](https://kiazhi.github.io/blog/powershell/Needing-PowerShell-in-Parrot-Linux-container/)
 - [Arch Linux](https://kiazhi.github.io/blog/powershell/Looking-for-PowerShell-in-Arch-Linux-container/)
 
 I will be demonstrating on how you can install PowerShell 6 in
