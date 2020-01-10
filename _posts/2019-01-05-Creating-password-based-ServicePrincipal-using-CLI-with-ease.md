@@ -17,8 +17,6 @@ tags:
   - "Ryen Tang"
 ---
 
-# Creating password-based ServicePrincipal using CLI with ease
-
 Sharing my way of creating a password-based ServicePrincipal in Azure using CLI
 to quickly carry on scripting and testing in the current terminal session
 without losing the identity and password.
