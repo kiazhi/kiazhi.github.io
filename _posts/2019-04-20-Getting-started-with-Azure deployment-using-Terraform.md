@@ -11,8 +11,9 @@ categories:
   - Blog
 tags:
   - Blog
+  - Cloud
   - Azure
-  - AzCLI
+  - AzureCLI
   - PowerShell
   - "Ryen Tang"
   - Terraform
@@ -181,12 +182,25 @@ terraform.exe -version
 After obtaining `terraform`, let us try to create a resource group using
 `terraform` as an example.
 
-```sh
-# Login to Azure using AzCLI
-az login
+> Note:
+>
+> Depending on whether if you are using AzCLI or PowerShell, you will need to
+> authenticate to Azure.
+> ```sh
+> # Login to Azure using AzCLI
+> az login
+> ```
+> or
+> ```powershell
+> # Login to Azure using PowerShell
+> Connect-AzAccount
+> ````
+> Once you have authenticated, proceed with the steps below with your preferred
+> console or terminal.
 
+```sh
 # Create a folder name for the terraform example
-mkdir -p ~/Terraform/example
+mkdir -p ~/Terraform/example1
 ```
 
 Firstly, define the provider in the `main.tf` file.
@@ -196,7 +210,7 @@ echo \
 '# Configure the Azure provider
 provider "azurerm" {
   version = "~>1.5"
-}' > ~/Terraform/example/main.tf
+}' > ~/Terraform/example1/main.tf
 ```
 
 Secondly, define the resource in the `resource.tf` file.
@@ -211,7 +225,7 @@ resource "azurerm_resource_group" "rg" {
     Environment    = "Development"
     DeploymentType = "Terraform"
   }
-}' > ~/Terraform/example/resource.tf
+}' > ~/Terraform/example1/resource.tf
 ```
 
 Once you have defined the configuration in `main.tf` and `resource.tf` files,
@@ -220,7 +234,7 @@ execute `teeraform` with `init` argument to initialize the working directory.
 ```sh
 # Initialize a working directory containing Terraform configuration files
 terraform init \
-  ~/Terraform/example
+  ~/Terraform/example1
 ```
 
 Next, use the `plan` argument with the `-out` parameter to generate the
@@ -229,8 +243,8 @@ execution plan file from the working directory.
 ```sh
 # Create an execution plan
 terraform plan \
-  -out ~/Terraform/example/out.plan \
-  ~/Terraform/example
+  -out ~/Terraform/example1/out.plan \
+  ~/Terraform/example1
 ```
 
 Finally, use the `apply` argument with the execution plan file to apply
@@ -239,8 +253,8 @@ changes in Azure.
 ```sh
 # Apply the changes
 terraform apply \
-  -state ~/Terraform/example/terraform.tfstate \
-  ~/Terraform/example/out.plan
+  -state ~/Terraform/example1/terraform.tfstate \
+  ~/Terraform/example1/out.plan
 ```
 
 Now, go to your Azure and check if the resource group has been created.
