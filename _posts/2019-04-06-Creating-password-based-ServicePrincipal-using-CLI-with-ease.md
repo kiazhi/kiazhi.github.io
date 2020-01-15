@@ -5,7 +5,7 @@ excerpt: "Sharing my way of creating a password-based ServicePrincipal in Azure
 using CLI to quickly carry on scripting and testing in the current terminal
 session easily."
 author: Ryen Tang
-date: 2019-01-05 00:00:00 +1200
+date: 2019-04-06 00:00:00 +1200
 toc: true
 categories: 
   - Blog
