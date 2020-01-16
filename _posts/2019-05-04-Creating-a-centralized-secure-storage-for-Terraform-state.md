@@ -2,7 +2,7 @@
 layout: single
 title: "Creating a centralized secure storage for storing Terraform state"
 excerpt: "Have you deployed Azure resources using Terraform where you need to
-share your its tfstate with the rest of the organization? Get an Azure storage
+share the tfstate with the rest of the organization? Get an Azure storage
 account for it."
 author: Ryen Tang
 date: 2019-05-04 00:00:00 +1200
