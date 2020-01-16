@@ -496,8 +496,6 @@ container as the centralized secure storage location.
 
 <div id="amzn-assoc-ad-f3a340a5-ce4d-4b4c-b409-c4c202ba7ffe"></div><script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=f3a340a5-ce4d-4b4c-b409-c4c202ba7ffe"></script>
 
-<a target="_blank" href="https://www.amazon.sg/b?_encoding=UTF8&tag=kiazhi-22&linkCode=ur2&linkId=d879883586c65cbd98b7d21ddc7a2dce&camp=247&creative=1211&node=6314388051">t</a><img src="//ir-sg.amazon-adsystem.com/e/ir?t=kiazhi-22&l=ur2&o=66" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
 
