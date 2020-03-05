@@ -20,7 +20,7 @@ tags:
 ---
 
 This scenario is what I actually encountered and took me a few hours to
-understand, troubleshoot and resolving it. There was an Azure Application
+understand, troubleshoot and resolve it. There was an Azure Application
 Gateway that did not had any configuration changes for the past few months.
 Although there were some Network Security Groups (NSGs) rule changes to the
 Virtual Network (VNet) subnet where the Application Gateway is connected, it
@@ -28,11 +28,11 @@ might have caused the issue and the frontend listener stopped listening.
 
 ## Scenario
 
-What is the condition?
+What are those conditions?
 
 - The Application Gateway has always been working fine without issue until now
 - No configuration change was applied to the Application Gateway recently
-- Application Gateway Health Status shows Healthy state
+- Application Gateway Health Status is still showing Healthy state
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
@@ -54,8 +54,7 @@ What is the condition?
 
 What is the current issue?
 
-- Discovery of Application Gateway Frontend Listener is not listening or
-responding
+- Discover Application Gateway Frontend Listener is not listening or responding
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
@@ -176,7 +175,7 @@ SubnetText                : {
                             }
 PublicIpAddressText       : null
 Name                      : appgateway-frontend-private-ip
-Etag                      : W/"9da8e6dc-d4d5-44b9-be52-20c657e8d4bc"
+Etag                      : W/"xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
 Id                        : /subscriptions/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/resourceGroups/rg-application-gateway/providers/Microsoft.Network/applicationGateways/appgateway-webapp/frontendIPConfigurations/appgateway-frontend-private-ip
 ```
 
@@ -240,8 +239,8 @@ provides scalability and my Application Gateway has 2 instances.
 Since there are 2 instances, the frontend IP address is a virtual IP (VIP),
 therefore the 2 instances will have their own IP addresses too. I probe the
 subnet remaining IP addresses for the 2 instance's IP addresses and found out
-that it is using 10.0.0.2 and 10.0.0.3 as an example. When I initiated the
-`curl` command on 10.0.0.2 and 10.0.0.3, there is a response back with the
+that it is using (Eg. `10.0.0.2` and `10.0.0.3`). When I initiated the
+`curl` command on `10.0.0.2` and `10.0.0.3`, there is a response back with the
 website content.
 
 But I still could not get the frontend IP address to work and I know that a
@@ -353,13 +352,13 @@ To do this on the Azure Portal:
 1. Launch Azure Portal
 2. Locate your Application Gateway resource
 3. Navigate to Settings -> Configuration
-4. Modify the Instance Count (Eg. Change from 2 to 1)
+4. Modify the Instance Count (Eg. Change from 2 instances to 1 instance)
 5. Select Save
 
 This will cause a restart of Application Gateway. Once the Application Gateway
 completed updating configuration, you will need to repeat the steps 4 and 5
 above to modify the Instance Count back to the original value (Eg. Change from
-1 to 2).
+1 instance to 2 instances).
 
 Until Microsoft decided to add a Restart button on the Azure Portal for
 Application Gateway, this might be the only way to restart it using the portal.
