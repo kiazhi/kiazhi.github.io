@@ -278,11 +278,11 @@ Now, go to your Azure and check if the resource group has been created.
 ## References
 
 - [Terraform - Download](https://www.terraform.io/downloads.html)
-- [Microsoft - Azure Terraform Documentation](https://docs.microsoft.com/en-us/azure/terraform/)
-- [Terraform - Terraform Commands (CLI)](https://www.terraform.io/docs/commands/index.html)
-- [Terraform - Configuration Language](https://www.terraform.io/docs/configuration/index.html)
-- [Terraform - Getting Started - Azure](https://learn.hashicorp.com/terraform/azure/intro_az)
-- [Terraform - Azure Provider](https://www.terraform.io/docs/providers/azurerm/index.html)
+- [Microsoft Docs - Azure Terraform Documentation](https://docs.microsoft.com/en-us/azure/terraform/)
+- [Terraform CLI Docs - Terraform Commands (CLI)](https://www.terraform.io/docs/commands/index.html)
+- [Terraform Docs - Configuration Language](https://www.terraform.io/docs/configuration/index.html)
+- [Terraform Docs - Getting Started - Azure](https://learn.hashicorp.com/terraform/azure/intro_az)
+- [Terraform Docs - Azure Provider](https://www.terraform.io/docs/providers/azurerm/index.html)
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>

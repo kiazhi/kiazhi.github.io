@@ -470,10 +470,10 @@ container as the centralized secure storage location.
 
 ## References
 
-- [Microsoft - Azure Terraform Documentation](https://docs.microsoft.com/en-us/azure/terraform/)
-- [Terraform - Terraform Commands (CLI)](https://www.terraform.io/docs/commands/index.html)
-- [Terraform - Configuration Language](https://www.terraform.io/docs/configuration/index.html)
-- [Terraform - Terraform State](https://learn.hashicorp.com/terraform/azure/build_az#terraform-state)
+- [Microsoft Docs - Azure Terraform Documentation](https://docs.microsoft.com/en-us/azure/terraform/)
+- [Terraform CLI Docs- Terraform Commands (CLI)](https://www.terraform.io/docs/commands/index.html)
+- [Terraform Docs - Configuration Language](https://www.terraform.io/docs/configuration/index.html)
+- [Terraform Docs - Terraform State](https://learn.hashicorp.com/terraform/azure/build_az#terraform-state)
 - [Getting started with Azure deployment using Terraform](https://kiazhi.github.io/blog/Getting-started-with-Azure-deployment-using-Terraform/)
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
