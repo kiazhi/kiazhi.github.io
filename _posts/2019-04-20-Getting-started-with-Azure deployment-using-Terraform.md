@@ -6,7 +6,7 @@ environment and briefly demonstrates on how to deploy resources with Terraform
 configuration files."
 author: Ryen Tang
 header:
-  image: ./assets/images/banners/Azure-&-Terraform-1280x200.png
+  image: ./assets/images/banners/Azure-and-Terraform-1280x200.png
 date: 2019-04-20 00:00:00 +1200
 toc: true
 categories: 

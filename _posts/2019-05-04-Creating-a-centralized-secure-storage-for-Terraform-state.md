@@ -6,7 +6,7 @@ share the tfstate with the rest of the organization? Get an Azure storage
 account for it."
 author: Ryen Tang
 header:
-  image: ./assets/images/banners/Azure-&-Terraform-1280x200.png
+  image: ./assets/images/banners/Azure-and-Terraform-1280x200.png
 date: 2019-05-04 00:00:00 +1200
 toc: true
 categories: 
