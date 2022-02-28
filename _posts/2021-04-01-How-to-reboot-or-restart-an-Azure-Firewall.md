@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Rebooting Azure Firewall"
+title: "How to reboot or restart an Azure Firewall?"
 excerpt: "When your Azure Firewall Platform-as-a-Service (PaaS) has an issue
 and you wish to reboot the AzFirewall. This is how to I did it with PowerShell."
 author: Ryen Tang
