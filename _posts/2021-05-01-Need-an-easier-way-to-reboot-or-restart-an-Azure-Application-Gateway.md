@@ -2,8 +2,7 @@
 layout: single
 title: "Need an easier way to reboot or restart an Azure Application Gateway?"
 excerpt: "When your Azure Application Gateway Platform-as-a-Service (PaaS) has
-an issue and you wish to reboot the AzApplicationGateway. This is how to I did
-it with PowerShell."
+an issue and you need to reboot the AzApplicationGateway. I made a cmdlet instead."
 author: Ryen Tang
 header:
   image: ./assets/images/banners/PowerShell-1280x200.png
