@@ -80,7 +80,7 @@ My solution ended up becoming a multiple weeks journey into developing an
 `Az.DesktopVirtualization.Utility` PowerShell module to complement the
 operation needs for troubleshooting with command line and use the `Run Command` capability from Azure Portal.
 
-![image](../assets/images/posts/2022-08-05-AVD-Session-Host-RunCommandScript-1.png)
+![image](/assets/images/posts/2022-08-05-AVD-Session-Host-RunCommandScript-1.png)
 
 <hr style='margin-top: 0.5em; margin-bottom: 0em; border-top: 1px solid #eaeaea'>
 <p style='font-size: 16px; vertical-align: top; text-align: right;'>↑<a href='#top'>Top</a></p>
@@ -238,7 +238,7 @@ tool that is similar to executing `psping` command documented in
 documentation without the need to manually download and extract `psping` from
 the SysInternal suite for execution.
 
-![image](../assets/images/posts/2022-08-05-AVD-Session-Host-RunCommandScript-2.png)
+![image](/assets/images/posts/2022-08-05-AVD-Session-Host-RunCommandScript-2.png)
 
 What other benefits does this provide? It allows an operations team to execute
 this command remotely to assess the latency while the current user is working
