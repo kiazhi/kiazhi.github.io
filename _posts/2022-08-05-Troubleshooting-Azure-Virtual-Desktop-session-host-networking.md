@@ -1,11 +1,12 @@
 ---
 layout: single
 title: "Troubleshooting Azure Virtual Desktop session host networking"
-excerpt: "I spent weeks and developed a Test-AzWvdRDBrokerLatency cmdlet to perform troubleshooting similar to psping from SysInternal."
+excerpt: "I spent weeks and developed a Test-AzWvdRDBrokerLatency cmdlet to
+perform troubleshooting similar to psping from SysInternal."
 author: Ryen Tang
 header:
   image: ./assets/images/banners/PowerShell-1280x200.png
-date: 2018-07-22 00:00:00 +0800
+date: 2022-08-05 00:00:00 +0800
 toc: true
 categories: 
   - Blog
